@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="22308000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -25,93 +25,6 @@
 		<Item Name="abs_pressure.vi" Type="VI" URL="../Pulse Generator Sub VIs/abs_pressure.vi"/>
 		<Item Name="check_is_empty.vi" Type="VI" URL="../Input Channel Lists/check_is_empty.vi"/>
 		<Item Name="conversion.vi" Type="VI" URL="../Input Channel Lists/conversion.vi"/>
-		<Item Name="DAQ Assistant_1" Type="NI-DAQmx Task">
-			<Property Name="\0\AI.Max" Type="Str">5</Property>
-			<Property Name="\0\AI.MeasType" Type="Str">Voltage</Property>
-			<Property Name="\0\AI.Min" Type="Str">0</Property>
-			<Property Name="\0\AI.TermCfg" Type="Str">Differential</Property>
-			<Property Name="\0\AI.Voltage.Units" Type="Str">Volts</Property>
-			<Property Name="\0\ChanType" Type="Str">Analog Input</Property>
-			<Property Name="\0\Name" Type="Str">DAQ Assistant_1/Abs P</Property>
-			<Property Name="\0\PhysicalChanName" Type="Str">cDAQ1Mod5/ai1</Property>
-			<Property Name="\1\AI.Max" Type="Str">5.0499999999999998</Property>
-			<Property Name="\1\AI.MeasType" Type="Str">Voltage</Property>
-			<Property Name="\1\AI.Min" Type="Str">0.050000000000000003</Property>
-			<Property Name="\1\AI.TermCfg" Type="Str">Differential</Property>
-			<Property Name="\1\AI.Voltage.Units" Type="Str">Volts</Property>
-			<Property Name="\1\ChanType" Type="Str">Analog Input</Property>
-			<Property Name="\1\Name" Type="Str">DAQ Assistant_1/PG to TS dP</Property>
-			<Property Name="\1\PhysicalChanName" Type="Str">cDAQ1Mod5/ai0</Property>
-			<Property Name="\2\AI.Current.Units" Type="Str">Amps</Property>
-			<Property Name="\2\AI.CurrentShunt.Loc" Type="Str">Internal</Property>
-			<Property Name="\2\AI.CurrentShunt.Resistance" Type="Str">95.576400000000007</Property>
-			<Property Name="\2\AI.Max" Type="Str">0.02</Property>
-			<Property Name="\2\AI.MeasType" Type="Str">Current</Property>
-			<Property Name="\2\AI.Min" Type="Str">0.0040000000000000001</Property>
-			<Property Name="\2\ChanType" Type="Str">Analog Input</Property>
-			<Property Name="\2\Name" Type="Str">DAQ Assistant_1/Pitot dP</Property>
-			<Property Name="\2\PhysicalChanName" Type="Str">cDAQ1Mod3/ai6</Property>
-			<Property Name="\3\AI.AutoZeroMode" Type="Str">Every Sample</Property>
-			<Property Name="\3\AI.Max" Type="Str">100</Property>
-			<Property Name="\3\AI.MeasType" Type="Str">Temperature:Thermocouple</Property>
-			<Property Name="\3\AI.Min" Type="Str">0</Property>
-			<Property Name="\3\AI.Temp.Units" Type="Str">Deg C</Property>
-			<Property Name="\3\AI.Thrmcpl.CJCChan" Type="Str"></Property>
-			<Property Name="\3\AI.Thrmcpl.CJCSrc" Type="Str">Built-In</Property>
-			<Property Name="\3\AI.Thrmcpl.CJCVal" Type="Str">25</Property>
-			<Property Name="\3\AI.Thrmcpl.Type" Type="Str">K</Property>
-			<Property Name="\3\ChanType" Type="Str">Analog Input</Property>
-			<Property Name="\3\Name" Type="Str">DAQ Assistant_1/PG 1</Property>
-			<Property Name="\3\PhysicalChanName" Type="Str">cDAQ1Mod7/ai0</Property>
-			<Property Name="\4\AI.AutoZeroMode" Type="Str">Every Sample</Property>
-			<Property Name="\4\AI.Max" Type="Str">100</Property>
-			<Property Name="\4\AI.MeasType" Type="Str">Temperature:Thermocouple</Property>
-			<Property Name="\4\AI.Min" Type="Str">0</Property>
-			<Property Name="\4\AI.Temp.Units" Type="Str">Deg C</Property>
-			<Property Name="\4\AI.Thrmcpl.CJCChan" Type="Str"></Property>
-			<Property Name="\4\AI.Thrmcpl.CJCSrc" Type="Str">Built-In</Property>
-			<Property Name="\4\AI.Thrmcpl.CJCVal" Type="Str">25</Property>
-			<Property Name="\4\AI.Thrmcpl.Type" Type="Str">K</Property>
-			<Property Name="\4\ChanType" Type="Str">Analog Input</Property>
-			<Property Name="\4\Name" Type="Str">DAQ Assistant_1/PG 2</Property>
-			<Property Name="\4\PhysicalChanName" Type="Str">cDAQ1Mod7/ai1</Property>
-			<Property Name="\5\AI.Current.Units" Type="Str">Amps</Property>
-			<Property Name="\5\AI.CurrentShunt.Loc" Type="Str">Internal</Property>
-			<Property Name="\5\AI.CurrentShunt.Resistance" Type="Str">95.576400000000007</Property>
-			<Property Name="\5\AI.Max" Type="Str">0.02</Property>
-			<Property Name="\5\AI.MeasType" Type="Str">Current</Property>
-			<Property Name="\5\AI.Min" Type="Str">0.0040000000000000001</Property>
-			<Property Name="\5\AI.TermCfg" Type="Str">RSE</Property>
-			<Property Name="\5\ChanType" Type="Str">Analog Input</Property>
-			<Property Name="\5\Name" Type="Str">DAQ Assistant_1/dP Win1 to Win 7</Property>
-			<Property Name="\5\PhysicalChanName" Type="Str">cDAQ1Mod3/ai2</Property>
-			<Property Name="\6\AI.Current.Units" Type="Str">Amps</Property>
-			<Property Name="\6\AI.CurrentShunt.Loc" Type="Str">Internal</Property>
-			<Property Name="\6\AI.CurrentShunt.Resistance" Type="Str">95.576400000000007</Property>
-			<Property Name="\6\AI.Max" Type="Str">0.02</Property>
-			<Property Name="\6\AI.MeasType" Type="Str">Current</Property>
-			<Property Name="\6\AI.Min" Type="Str">0.0040000000000000001</Property>
-			<Property Name="\6\AI.TermCfg" Type="Str">RSE</Property>
-			<Property Name="\6\ChanType" Type="Str">Analog Input</Property>
-			<Property Name="\6\Name" Type="Str">DAQ Assistant_1/dP Win1 to Win 4</Property>
-			<Property Name="\6\PhysicalChanName" Type="Str">cDAQ1Mod3/ai3</Property>
-			<Property Name="\7\AI.Max" Type="Str">10</Property>
-			<Property Name="\7\AI.MeasType" Type="Str">Voltage</Property>
-			<Property Name="\7\AI.Min" Type="Str">-10</Property>
-			<Property Name="\7\AI.TermCfg" Type="Str">Differential</Property>
-			<Property Name="\7\AI.Voltage.Units" Type="Str">Volts</Property>
-			<Property Name="\7\ChanType" Type="Str">Analog Input</Property>
-			<Property Name="\7\Name" Type="Str">DAQ Assistant_1/Camera Voltage</Property>
-			<Property Name="\7\PhysicalChanName" Type="Str">cDAQ1Mod2/ai0</Property>
-			<Property Name="Channels" Type="Str">DAQ Assistant_1/Abs P, DAQ Assistant_1/PG to TS dP, DAQ Assistant_1/Pitot dP, DAQ Assistant_1/PG 1, DAQ Assistant_1/PG 2, DAQ Assistant_1/dP Win1 to Win 7, DAQ Assistant_1/dP Win1 to Win 4, DAQ Assistant_1/Camera Voltage</Property>
-			<Property Name="Name" Type="Str">DAQ Assistant_1</Property>
-			<Property Name="SampClk.ActiveEdge" Type="Str">Rising</Property>
-			<Property Name="SampClk.Rate" Type="Str">1000</Property>
-			<Property Name="SampClk.Src" Type="Str"></Property>
-			<Property Name="SampQuant.SampMode" Type="Str">Continuous Samples</Property>
-			<Property Name="SampQuant.SampPerChan" Type="Str">100</Property>
-			<Property Name="SampTimingType" Type="Str">Sample Clock</Property>
-		</Item>
 		<Item Name="enqueue_pressure_auto_offset.vi" Type="VI" URL="../Utility Sub VIs/enqueue_pressure_auto_offset.vi"/>
 		<Item Name="file_check_label.vi" Type="VI" URL="../Utility Sub VIs/file_check_label.vi"/>
 		<Item Name="log_file_selector.ctl" Type="VI" URL="../Utility Sub VIs/log_file_selector.ctl"/>
@@ -146,19 +59,6 @@
 		<Item Name="windows_heater.vi" Type="VI" URL="../Utility Sub VIs/windows_heater.vi"/>
 		<Item Name="visual_loop.ctl" Type="VI" URL="../Utility Sub VIs/visual_loop.ctl"/>
 		<Item Name="valve_control_output_tester.vi" Type="VI" URL="../valve_control_output_tester.vi"/>
-		<Item Name="DAQ Assistant_2" Type="NI-DAQmx Task">
-			<Property Name="\0\AO.Max" Type="Str">5</Property>
-			<Property Name="\0\AO.Min" Type="Str">0</Property>
-			<Property Name="\0\AO.OutputType" Type="Str">Voltage</Property>
-			<Property Name="\0\AO.TermCfg" Type="Str">RSE</Property>
-			<Property Name="\0\AO.Voltage.Units" Type="Str">Volts</Property>
-			<Property Name="\0\ChanType" Type="Str">Analog Output</Property>
-			<Property Name="\0\Name" Type="Str">DAQ Assistant_2/VoltageOut</Property>
-			<Property Name="\0\PhysicalChanName" Type="Str">cDAQ1Mod3/ao2</Property>
-			<Property Name="Channels" Type="Str">DAQ Assistant_2/VoltageOut</Property>
-			<Property Name="Name" Type="Str">DAQ Assistant_2</Property>
-			<Property Name="SampTimingType" Type="Str">On Demand</Property>
-		</Item>
 		<Item Name="pulse_generator_data_v2.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_data_v2.vi"/>
 		<Item Name="pulse_generator_data_v3.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_data_v3.vi"/>
 		<Item Name="liquid_temp_psat.vi" Type="VI" URL="../Pulse Generator Sub VIs/liquid_temp_psat.vi"/>
@@ -178,7 +78,6 @@
 		<Item Name="refnum_array_cluster.ctl" Type="VI" URL="../Input Channel Lists/refnum_array_cluster.ctl"/>
 		<Item Name="label_array_cluster.ctl" Type="VI" URL="../Input Channel Lists/label_array_cluster.ctl"/>
 		<Item Name="index_array_cluster.ctl" Type="VI" URL="../Input Channel Lists/index_array_cluster.ctl"/>
-		<Item Name="mock.vi" Type="VI" URL="../Input Channel Lists/mock.vi"/>
 		<Item Name="data_processor.vi" Type="VI" URL="../Input Channel Lists/data_processor.vi"/>
 		<Item Name="add_entry.vi" Type="VI" URL="../Input Channel Lists/add_entry.vi"/>
 		<Item Name="input_channel_task.vi" Type="VI" URL="../Input Channel Lists/input_channel_task.vi"/>
@@ -190,10 +89,10 @@
 		<Item Name="pulse_generator_multiheater_partial_refnum.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_multiheater_partial_refnum.vi"/>
 		<Item Name="encoder_sample_.vi" Type="VI" URL="../Pulse Generator Sub VIs/encoder_sample_.vi"/>
 		<Item Name="power_supply_panel.ctl" Type="VI" URL="../Utility Sub VIs/power_supply_panel.ctl"/>
-		<Item Name="Excel - ActiveX Event Callback.vi" Type="VI" URL="../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Connectivity/Excel/Excel - ActiveX Event Callback.vi"/>
 		<Item Name="pulse_generator_multiheater_continuous_driver_refnum.vi" Type="VI" URL="../Utility Sub VIs/pulse_generator_multiheater_continuous_driver_refnum.vi"/>
 		<Item Name="pg_motor_controller_physical_channel.ctl" Type="VI" URL="../Input Channel Lists/pg_motor_controller_physical_channel.ctl"/>
 		<Item Name="motordrivertest.vi" Type="VI" URL="../motordrivertest.vi"/>
+		<Item Name="input_channel_to_json.vi" Type="VI" URL="../Input Channel Lists/input_channel_to_json.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -501,6 +400,20 @@
 				<Item Name="MB Ethernet Master Query Write Single Coil (poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Ethernet Master Query Write Single Coil (poly).vi"/>
 				<Item Name="MB Ethernet Master Query Read Coils (poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Ethernet Master Query Read Coils (poly).vi"/>
 				<Item Name="MB Ethernet Master Query (poly).vi" Type="VI" URL="/&lt;vilib&gt;/NI Modbus.llb/MB Ethernet Master Query (poly).vi"/>
+				<Item Name="DAQmx Read (Analog Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog Wfm 1Chan NSamp Duration).vi"/>
+				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp Duration).vi"/>
+				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
+				<Item Name="DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital 1D Wfm NChan NSamp Duration).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D I16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL NChan 1Samp).vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
+				<Item Name="DAQmx Create Channel (Power).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (Power).vi"/>
+				<Item Name="DAQmx Start Trigger (Time).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/trigger.llb/DAQmx Start Trigger (Time).vi"/>
+				<Item Name="DAQmx Start Trigger (Analog Multi Edge).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/trigger.llb/DAQmx Start Trigger (Analog Multi Edge).vi"/>
+				<Item Name="DAQmx Reference Trigger (Analog Multi Edge).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/trigger.llb/DAQmx Reference Trigger (Analog Multi Edge).vi"/>
 			</Item>
 			<Item Name="2D-array-to-cluster.vi" Type="VI" URL="../Utility Sub VIs/2D-array-to-cluster.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
